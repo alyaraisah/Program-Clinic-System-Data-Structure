@@ -12,12 +12,12 @@ Dalam era global ini, struktur data merupakan bagian yang tak terpisahkan dalam 
 Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu linked list, queue, dan stack dengan menuangkannya dalam sebuah projek dengan judul _“Integrated Skin Treatment Clinic Management”_. Sebuah program terintegrasi yang dapat mendata _treatment_ yang dilakukan pasien klinik, mengatur perubahan data pasien, memindahkan data pasien pada file csv, serta mengatur proses antrian hingga pembayarannya.
 
 ## Tujuan dan Manfaat
-  a. Tujuan:
+    Tujuan:
       * Mempermudah dalam membuat program klinik perawatan kulit yang terintegrasi
       * Meningkatkan efisiensi dan efektivitas dalam pengaturan dan pengolahan data pada klinik perawatan kulit.
       * Meningkatkan keakuratan data yang disimpan.
 
-  b. Manfaat:
+    Manfaat:
       * Mempermudah proses input, update, undo, delete pada data pasien klinik. 
       * Mempermudah proses pengolahan data antrian pasien.
       * Mempermudah proses pembayaran yang hanya dapat dilakukan setelah pasien mendapat treatment.

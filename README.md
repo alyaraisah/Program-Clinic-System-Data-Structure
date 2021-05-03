@@ -26,6 +26,7 @@ Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu l
 
 ## Penjelasan Aplikasi
 Aplikasi yang dibuat merupakan sebuah program terintegrasi untuk mengatur sistem pelayanan pasien dalam sebuah klinik.
+
 Sistem yang diatur adalah pengaturan data pasien, jumlah antrian, proses pembayaran, dan pemindahan data pasien secara langsung ke file csv. 
 
 ## Gambar Rancangan Antar Muka

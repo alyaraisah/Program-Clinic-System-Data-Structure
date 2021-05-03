@@ -30,7 +30,7 @@ Aplikasi yang dibuat merupakan sebuah program terintegrasi untuk mengatur sistem
 Sistem yang diatur adalah pengaturan data pasien, jumlah antrian, proses pembayaran, dan pemindahan data pasien secara langsung ke file csv. 
 
 ## Gambar Rancangan Antar Muka
-(Gambar Rancangan Antar Muka terdapat pada file "Rancangan Interface")
+(Gambar Rancangan Antar Muka terdapat pada file "Rancangan Interface.pdf")
 
 ## Rencana Pengerjaan Projek
 Pengerjaan projek berkelompok dalam kondisi pandemi ini dilakukan menggunakan bantuan teknologi. Diskusi dilakukan via aplikasi line atau google meet serta kolaborasi dilakukan melalui bantuan goole docs dan github. Pembagian tugas disepakati melalui diskusi online.

@@ -1,4 +1,4 @@
-# Integrated Skin Treatment Clinic Management
+# KLINIK HORAY
 
 Anggota Kelompok:
 
@@ -9,7 +9,7 @@ Anggota Kelompok:
 ## Latar Belakang
 Dalam era global ini, struktur data merupakan bagian yang tak terpisahkan dalam pembuatan program aplikasi yang dapat mempermudah pengolahan data. Program dengan implementasi struktur data sangat dibutuhkan dalam tempat pelayanan publik seperti klinik perawatan wajah, guna meningkatkan akurasi data dan mengefektifkan sistem pelayanannya.
 
-Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu linked list, queue, dan stack dengan menuangkannya dalam sebuah projek dengan judul _“Integrated Skin Treatment Clinic Management”_. Sebuah program terintegrasi yang dapat mendata _treatment_ yang dilakukan pasien klinik, mengatur perubahan data pasien, memindahkan data pasien pada file csv, serta mengatur proses antrian hingga pembayarannya.
+Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu linked list, queue, dan stack dengan menuangkannya dalam sebuah projek dengan judul _“Klinik Horay”_. Sebuah program terintegrasi yang dapat mendata _treatment_ yang dilakukan pasien klinik, mengatur perubahan data pasien, memindahkan data pasien pada file csv, serta mengatur proses antrian hingga pembayarannya.
 
 ## Tujuan dan Manfaat
     a. Tujuan:
@@ -28,7 +28,6 @@ Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu l
 Aplikasi yang dibuat merupakan sebuah program terintegrasi untuk mengatur sistem pelayanan pasien dalam sebuah klinik.
 
 Sistem yang diatur adalah pengaturan data pasien, jumlah antrian, proses pembayaran, dan pemindahan data pasien secara langsung ke file csv. 
-![ERD_Diagram](https://user-images.githubusercontent.com/79495345/116907711-24df6e00-ac6c-11eb-9b8c-4898de28fe2f.jpg)
 
 ## Gambar Rancangan Antar Muka
 

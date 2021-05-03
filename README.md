@@ -13,15 +13,15 @@ Oleh karena itu, kami mencoba mengimplementasikan 3 materi stuktur data, yaitu l
 
 ## Tujuan dan Manfaat
   a. Tujuan:
-      1. Mempermudah dalam membuat program klinik perawatan kulit yang terintegrasi
-      2. Meningkatkan efisiensi dan efektivitas dalam pengaturan dan pengolahan data pada klinik perawatan kulit.
-      3. Meningkatkan keakuratan data yang disimpan.
+      * Mempermudah dalam membuat program klinik perawatan kulit yang terintegrasi
+      * Meningkatkan efisiensi dan efektivitas dalam pengaturan dan pengolahan data pada klinik perawatan kulit.
+      * Meningkatkan keakuratan data yang disimpan.
 
   b. Manfaat:
-      1. Mempermudah proses input, update, undo, delete pada data pasien klinik.
-      2. Mempermudah proses pengolahan data antrian pasien.
-      3. Mempermudah proses pembayaran yang hanya dapat dilakukan setelah pasien mendapat treatment.
-      4. Mempermudah proses pemindahan seluruh data pasien ke file csv, sehingga tidak perlu lagi memindahkan data secara manual.
+      * Mempermudah proses input, update, undo, delete pada data pasien klinik. 
+      * Mempermudah proses pengolahan data antrian pasien.
+      * Mempermudah proses pembayaran yang hanya dapat dilakukan setelah pasien mendapat treatment.
+      * Mempermudah proses pemindahan seluruh data pasien ke file csv, sehingga tidak perlu lagi memindahkan data secara manual.
 
 
 ## Penjelasan Aplikasi

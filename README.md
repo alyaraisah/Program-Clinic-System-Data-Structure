@@ -32,6 +32,7 @@ Sistem yang diatur adalah pengaturan data pasien, jumlah antrian, proses pembaya
 ## Gambar Rancangan Antar Muka
 
 **Tampilan Awal**
+
 <img width="359" alt="Screen Shot 2021-05-04 at 00 33 42" src="https://user-images.githubusercontent.com/79495345/116910834-62de9100-ac70-11eb-9c42-5604f4e1e1d9.png">
 
 

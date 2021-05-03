@@ -1,7 +1,4 @@
-# projek-UAS-halinabilalya
-
-# JUDUL_PROYEK
-Judul : 
+# Integrated Skin Treatment Clinic Management
 
 # Anggota Kelompok:
 Hali Putri Aisyah (140810200006)

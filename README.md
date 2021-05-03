@@ -17,4 +17,3 @@ sistem yang diatur adalah jumlah antrian, billing pasien, dan data pasien yang m
 # Gambar Rancangan Antar Muka
 # Rencana Pengerjaan Projek
 Pengerjaan dilakukan secara berkelompok, diskusi dilakukan via chat dan meet online (gmeet). proyek menggunakan bahasa C++ dan Excel sebagai rekaman data. 
-# Gambar Rancangan Antar Muka

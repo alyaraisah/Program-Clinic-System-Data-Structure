@@ -1,15 +1,7 @@
-#include <iostream>
-#include <string.h>
-#include <fstream>
-#include "struct.hpp"
-using namespace std;
+#include"declare.hpp"
 
 int order_number = 0;
 // Initialize
-Queue Q;
-Orders* served_list = NULL;
-Complete* complete_list = NULL;
-csv* csv_list = NULL;
 
 void add_patient(Queue& Q){
     Orders* new_order = new Orders;
@@ -220,7 +212,7 @@ void printCSV(csv* head){
 void readCSV(){
     ifstream ip("PatientData.csv");
 
-    if(!ip.is_open());
+    ip.is_open();
     string num;
     string name;
     string age;
@@ -482,8 +474,6 @@ void deleteOrder(Queue &Q, Orders* &deletion){
 
 void undo_order(Queue& Q, Orders* &deletion){
     Orders* erase = Q.front;
-    Orders* pointer = deletion;
-
     if(erase == NULL){
         erase = nullptr;
         cout << "There are no patient to delete!";

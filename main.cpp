@@ -1,9 +1,10 @@
 #include<iostream>
-#include<string.h>
+#include<string>
 #include<fstream>
-#include "struct.hpp"
-#include "function.hpp"
 #include<vector>
+#include"function.cpp"
+#include"struct.cpp"
+
 using namespace std;
 
 int main(){

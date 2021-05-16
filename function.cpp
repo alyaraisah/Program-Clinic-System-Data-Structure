@@ -474,13 +474,25 @@ void deleteOrder(Queue &Q, Orders* &deletion){
 
 void undo_order(Queue& Q, Orders* &deletion){
     Orders* erase = Q.front;
+    Orders* pointer = deletion;
     if(erase == NULL){
         erase = nullptr;
         cout << "There are no patient to delete!";
-    } else {
-        deletion = erase;
-        erase = erase->next;
-        deletion->next = nullptr;
+    } else if (Q.front->next == NULL){
+        Q.front = nullptr;
+        Q.back = nullptr;
+        cout << "Last patient has been deleted!";
+    } else if (pointer->next->next == NULL){
+        pointer->next = NULL;
+        Q.back = pointer;
+        cout << "Last patient has been deleted!";
+    }  else if (pointer->next->next != NULL){
+        pointer->next = pointer->next->next;
+		pointer = pointer->next;
+        cout << "Last patient has been deleted!";
+    }   else {
+        Q.front = pointer->next;
+        pointer->next = nullptr;
         cout << "Last patient has been deleted!";
     }
 }

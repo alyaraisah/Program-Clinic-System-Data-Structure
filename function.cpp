@@ -441,6 +441,10 @@ void update(Queue &Q){
 
         strcpy(change->patient_name, pointer->patient_name);
         change->order_number = pointer->order_number;
+        change->total_price = pointer->total_price;
+        change->age = pointer->age;
+        change->gender= pointer->gender;
+        
         if(pointer->next != NULL){
             change->next = pointer->next;
         }else{

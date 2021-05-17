@@ -1,10 +1,8 @@
 #pragma once
 
-#include<string>
 #include<iostream>
 #include<string.h>
 #include<fstream>
-#include<vector>
 #include"struct.cpp"
 using namespace std;
 

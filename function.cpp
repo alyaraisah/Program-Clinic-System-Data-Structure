@@ -123,7 +123,7 @@ void printOrder(Orders* front){
             items = front->items;
             while (items != NULL){
                 if (items->price == 0){
-                    cout<<endl;
+                    break;
                 } else{
                     cout<<"\t"<<items->item_name<<"\t"<<items->price<<endl;
                 }
@@ -349,9 +349,38 @@ void completeOrder(Complete* head, csv* &added){
                     cout<<"Data Has been succesfully added to csv!"<<endl;
                     break;
                 }
-            } else if(pointer->num != paid){
+            } else if (pointer->num == paid){
+                if (pointer->paid == true){
+                    cout<<"That Patient has already paid!"<<endl;
+                    break;
+                } else {
+                    strcpy(new_csv->csv_name, pointer->patient_complete);
+                    new_csv->csv_num = pointer->num;
+                    new_csv->csv_payment = pointer->payment;
+                    new_csv->csv_age = pointer->age;
+                    new_csv->csv_gender = pointer->gender;
+
+                    pointer->paid = true;
+                    if(added == NULL){
+                        added = new_csv;
+                    }
+                    else if(added->next == NULL){
+                        added->next = new_csv;
+                    }
+                    else{
+                        csv* pointer = added;
+                        while(pointer->next != NULL){
+                            pointer = pointer->next;  
+                        }
+                        pointer->next = new_csv; 
+                    }
+                    cout<<"Data Has been succesfully added to csv!"<<endl;
+                    break;
+                }
+            }
+                else if(pointer->num != paid){
                 pointer = pointer->next;
-            } else {
+            }   else {
                 cout<<"No patient found with that number!"<<endl;
             }
             convert = convert->next;
@@ -492,13 +521,12 @@ void undo_order(Queue& Q, Orders* &deletion){
         pointer->next = NULL;
         Q.back = pointer;
         cout << "Last patient has been deleted!";
-    }  else if (pointer->next->next != NULL){
-        pointer->next = pointer->next->next;
-		pointer = pointer->next;
-        cout << "Last patient has been deleted!";
-    }   else {
-        Q.front = pointer->next;
+    }  else {
+        while(pointer->next->next != NULL){
+            pointer = pointer->next;
+        }
         pointer->next = nullptr;
+        Q.back = pointer;
         cout << "Last patient has been deleted!";
-    }
+    } 
 }

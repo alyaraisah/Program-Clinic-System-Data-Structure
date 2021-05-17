@@ -31,7 +31,7 @@ void add_patient(Queue& Q){
     cin >> gender;
     new_order->gender = gender;
 
-    // Assign the item list that cust buy in the order
+    // Assign the treatment list that patient choose in the order
     Order_Treatment* Item_List = NULL;
     char add_new_item = 'y';
     while(add_new_item == 'y'){

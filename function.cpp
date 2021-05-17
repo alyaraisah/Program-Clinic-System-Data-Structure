@@ -91,7 +91,8 @@ void add_items(Order_Treatment* &items){
         new_item->price = 6000000;
         break;
     default:
-        strcpy(new_item->item_name, " ");
+        cout << "Masukan angka 1-5!!\n";
+        strcpy(new_item->item_name, "-");
         new_item->price = 0;
         break;
     }
@@ -122,9 +123,7 @@ void printOrder(Orders* front){
             Order_Treatment* items;
             items = front->items;
             while (items != NULL){
-                if (items->price == 0){
-                    break;
-                } else{
+                if (items->price != 0){
                     cout<<"\t"<<items->item_name<<"\t"<<items->price<<endl;
                 }
                 items = items->next;
